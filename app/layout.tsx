@@ -20,9 +20,9 @@ const siteUrl =
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
       : "http://localhost:3000";
 
-const title = "Dev Starter by Zippystarter";
+const title = "Cloud Offensive Operations | cloudsecurity.com.ar";
 const description =
-  "Dev Starter is an open source, one page developer portfolio template.";
+  "AWS exploitation research. Enterprise red team execution. Compliance automation for ISO27001, PCI DSS, and SOC2. Technical deep dives from offensive cloud practitioners in LATAM.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title,
     description,
     url: "./",
-    siteName: title,
+    siteName: "Cloud Offensive Operations",
     images: "/og.jpg",
   },
 };
