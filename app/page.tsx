@@ -29,28 +29,28 @@ import { ProjectImage } from "@/components/project-image";
 export default function Home() {
   const projects = [
     {
-      title: "Nebula Dashboard",
+      title: "AWS Privilege Escalation in Multi-Account Orgs",
       description:
-        "Real-time analytics platform for distributed systems. Built with React, WebSocket, and Go.",
-      tags: ["React", "Go", "WebSocket", "D3.js"],
+        "Sanitized technical case study demonstrating attack paths, privilege escalation chains, and detection opportunities across AWS, Azure, and GCP environments for regulated enterprises.",
+      tags: ["AWS", "Azure", "GCP", "IAM", "Privilege Escalation", "Cloud Security"],
       image: "/project-placeholder-1.jpg",
       link: "#",
       repo: "#",
     },
     {
-      title: "Void Chain",
+      title: "Bypassing CloudTrail with Token Manipulation",
       description:
-        "Decentralized identity verification protocol. Smart contracts written in Solidity.",
-      tags: ["Solidity", "Ethereum", "Web3.js", "Node.js"],
+        "Techniques adversaries use to operate without generating CloudTrail events. Reproduction steps, detection gaps, and monitoring strategies for security teams.",
+      tags: ["AWS", "CloudTrail", "Evasion", "Forensics"],
       image: "/project-placeholder-2.jpg",
       link: "#",
       repo: "#",
     },
     {
-      title: "Cyber Construct",
+      title: "Automating PCI DSS 11.3 via CloudTrail Analysis",
       description:
-        "3D architectural visualization tool running in the browser using WebGL.",
-      tags: ["Three.js", "WebGL", "Vue", "Python"],
+        "Transform quarterly manual penetration testing evidence requirements into continuous automated validation using native AWS services.",
+      tags: ["PCI DSS", "Compliance", "Automation", "CloudTrail"],
       image: "/project-placeholder-3.jpg",
       link: "#",
       repo: "#",
@@ -59,22 +59,22 @@ export default function Home() {
 
   const skills = [
     {
-      category: "Frontend",
-      items: ["React", "TypeScript", "Tailwind CSS", "Three.js", "Next.js"],
+      category: "AWS Security",
+      items: ["IAM", "Lambda", "CloudTrail", "GuardDuty", "WAF", "KMS"],
     },
     {
-      category: "Backend",
-      items: ["Node.js", "Go", "PostgreSQL", "Redis", "Docker"],
+      category: "Compliance Frameworks",
+      items: ["ISO27001", "PCI DSS", "SOC2", "CIS Benchmarks", "NIST"],
     },
     {
-      category: "Tools",
-      items: ["Git", "Linux", "AWS", "Kubernetes", "Figma"],
+      category: "Offensive Operations",
+      items: ["PrivEsc", "Red Teaming", "Phishing", "TTP Development", "Threat Modeling"],
     },
   ];
 
   const blogPosts = [
     {
-      title: "Optimizing React Render Cycles in High-Frequency Data Apps",
+      title: "Privilege Escalation via Lambda Resource Policies",
       date: "Oct 12, 2024",
       readTime: "5 min read",
       excerpt:
